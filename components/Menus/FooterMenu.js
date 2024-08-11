@@ -30,7 +30,7 @@ const FooterMenu = () => {
         <FontAwesome5
           name="info"
           style={styles.iconStyle}
-          color={route.name === "Details" && "orange"}
+          color={route.name === "Details" && "yellow"}
         />
         <Text>Details</Text>
       </TouchableOpacity>
